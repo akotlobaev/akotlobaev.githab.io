@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Michroma&display=swap);
+body{
+    background: linear-gradient(270deg, #151515 0%, #3434BF 100%);
+    font-family: Michroma, serif;
+}
+
+
+.nav-link{
+    color: aquamarine;
+}
+.navbar-nav .nav-link.active{
+    color: rgb(172, 172, 172);
+}
+.navbar-brand>img{
+    width: 40px;
+}
+.navbar-toggler{
+    background-color: rgb(134, 134, 134);
+}
+.card{
+    background: linear-gradient(270deg, #151515 0%, #3434BF 100%);
+    color: white;
+   
+}
+
+.footer-text{
+    color: aquamarine;
+    margin: auto auto;
+}
+
+footer{
+    background: linear-gradient(270deg, #3e3939 0%, #3434BF 100%);
+}
+.sidebar{
+    color: rgb(15, 31, 31);
+    background: linear-gradient(270deg, #3e3939 0%, #3434BF 100%);  
+}
+.sidetext{
+    color: aquamarine;
+    margin: auto;
+}
+
+.whats{
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+@media(max-width: 755px){
+    .carousel-indicators{
+        display: none;
+    }
+}
+
+
+
+
+/* https://www.youtube.com/watch?v=Bmtu5eNnjK8 6 35 */
+смолечкова 9 офис 205.
